@@ -62,7 +62,10 @@ commands:
 command:
  
  git push origin main : pushe the code to the git repository.
+ git push -u origin main
+ git remote add origin https://github.com/sameeranyadav/Git_learn_.git
+ git branch -M main
+
 
 -------------------------------------------------------------------------------
-lsad
 
