@@ -68,5 +68,9 @@ command:
  git pull origin main 
 
 
+git checkout -b "branch_name"
+git push --set-upstream origin newBranch
+
+
 -------------------------------------------------------------------------------
 from new branch
