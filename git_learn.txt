@@ -1,0 +1,68 @@
+						GIT
+---------------------------------------------------------------------------------------------------------
+
+--> Git is a Version Control System Tool that helps to track changes in code.
+
+-> Features of Git :
+	1. Popular
+	2. free & OpenSorce
+	3. Fast & Scalable 
+--------------------------------------------------------------------------------
+-->gitHub:
+
+* it's a website that allows developers to store and manage their code using Git.
+
+   site : https://github.com
+
+ -----------------------------------------------------------
+--> Configuring Git:
+
+steps :
+1. git config --global user.name "sameeranyadav"//username
+2. git config --global user.email "sameeranyadav051@gmail.com" // email
+3. git config --list // shows the git details
+
+--------------------------------------------------------------
+
+--> Clone & Status:
+
+-> clone : cloning a repository on our local machine.
+	sys: git clone <- link of repository->
+
+-> status : display the state of the code.
+	status: modified (M) , Untracked (U) , staged (A) , Unmodified
+	sys : git status
+
+
+common commands :
+
+cd : used to open the folder path.
+ls : used to get the list of no.of files present in the folder
+
+--------------------------------------------------------------
+--> Add & Commit 
+
+-> add : adds new or changed files in your working directory to the Git staging area 
+	sys : git add <-file name ->
+
+-> commit : it is used to commit the record to repo 
+	sys : git commit -m "some msg"
+
+commands:
+
+	* git add Readme.md : adds the single file to repo.
+	* git add . : adds all the files to the repo.
+
+--------------------------------------------------------------------------
+--> Push command:
+
+-> push : upload local repo content to remote repo.
+	 sys : git push origin main
+
+command:
+ 
+ git push origin main : pushe the code to the git repository.
+
+-------------------------------------------------------------------------------
+lsad
+
