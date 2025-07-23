@@ -65,6 +65,7 @@ command:
  git push -u origin main
  git remote add origin https://github.com/sameeranyadav/Git_learn_.git
  git branch -M main
+ git pull origin main 
 
 
 -------------------------------------------------------------------------------
